@@ -1,0 +1,14 @@
+DIP - Dependency Inversion Principle (Principio de inversão de dependência)
+- Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações;
+- Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações;
+
+obs: Dependa de uma abstração e não de uma implementação.
+
+exemplos: A titulo de exemplo vamos usar o 
+módulo de alto nível: Cadastro de Cliente
+módulo de baixo nível: Class de conexão ao banco de dados
+
+A class de CadastroCliente não pode depender da Class de Conexão ao BD. Pois cria um acoplamento. O ideal é depender
+de uma abstração da class de conexão ao bd e não de uma implementação.
+
+OBS: A violação do DIP, seria a solução imposta pelo SRP.
