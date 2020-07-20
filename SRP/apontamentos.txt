@@ -1,0 +1,12 @@
+SRP - Principio da Reponsabilidade Única
+- A class should have one, and only one, reason to change - ( Uma class deve ter um, e apenas um, motivo para ser modificada)
+
+O que quer dizer (Uma class deve ter um, e apenas um, motivo para ser modificada) ?
+R: Quer dizer que se a class tem apenas um motivo para ser modificada, isso quer dizer que ela tem apenas uma responsabilidade, caso ela tenha um ou mais motivos
+para ser modificadas, quer dizer que ela tem mais responsabilidades do que devia.
+
+OBS: Lembrar que uma class pode ter inumeros métodos, mas desde que todos métodos pertençam aquela class ou ao seu contexto, por mais que eu mexa nesse métodos,
+eu estou tendo apenas um único motivo para modificar, pois estou a mexer em métodos pertencentes ao contexto ou as responsabilidades dessa claass.
+ex: A class EmailService, ela tem dois métodos que é o de validar o email e enviar. 
+Ela tem dois métodos, mas os métodos estão virados apenas a resolver os problemas do email, por mais que eu altere uma das duas classes ou mesmo as duas, ainda estou tendo 
+um único motivo para alterar, pois trata-se de métodos voltados a resolução de problemas de email. 
