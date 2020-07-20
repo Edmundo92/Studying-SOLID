@@ -1,0 +1,8 @@
+ISP - Interface Segregation Principle
+
+Clientes (classes) não deve ser forçados a depender de métodos que não usam. (States that no client should be forced to depend on methods it does not use)
+Obs: Muitas interfaces especificas são melhores do que uma interface única.
+
+O que quer dizer ?
+R: Fazer interface pra variadas coisas, e não uma única que vai ter métodos e propriedades que outras classes ou métodos não vão usar.
+

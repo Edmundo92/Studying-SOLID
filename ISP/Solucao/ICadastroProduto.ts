@@ -1,0 +1,4 @@
+interface ICadastroProduto {
+    validarDados();
+    salvarDados();
+}
