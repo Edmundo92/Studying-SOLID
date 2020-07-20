@@ -1,0 +1,4 @@
+// https://www.youtube.com/watch?v=Q2QdkiX6p_Y&t=1557s
+
+abstração vs implementação
+coesão e acoplamento
