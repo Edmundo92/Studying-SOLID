@@ -1,0 +1,2 @@
+LSP - Uma classe base deve poder ser substituida epla sua classe derivada.
+Obs: Se nada como um pato, voa como um pato, porém precisa de baterias, provavelmente você possui um problema de abstração
