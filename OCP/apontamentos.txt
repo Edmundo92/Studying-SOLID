@@ -1,0 +1,8 @@
+OCP - Open Closed Principle (Principio do Aberto Fechado)
+- Entidades de software (classes, módulos, funções, etc) devem estar abertos para extensão, mas fechadas para modificação
+- Software entities (classes, modules, functions, ect) should be open for extension, but closed for modification
+
+O que significa ?
+R: 
+
+
